@@ -1,0 +1,24 @@
+
+body {
+   margin:0;
+   padding: 0;
+   font-family: 'Bungee', cursive;
+   font-size: 1rem;
+   background-color: rgb(54, 63, 44);
+   color: whitesmoke;
+   
+}
+
+h1 {
+   mix-blend-mode: difference;
+   z-index: 1;
+   position: fixed;
+   left: 48px;
+   top:48px;
+}
+
+canvas {
+   /* so it doesn't sit on the baseline of text (inline tag behaviour) */
+  vertical-align: bottom;
+   outline: 1px solid red;
+}
